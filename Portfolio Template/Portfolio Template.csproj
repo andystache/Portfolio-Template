@@ -73,6 +73,8 @@
     <Content Include="Content\fa-regular-400.svg" />
     <Content Include="Content\fa-solid-900.svg" />
     <Content Include="Content\grayscale.min.css" />
+    <Content Include="Content\prism.css" />
+    <Content Include="Scripts\prism.js" />
     <Content Include="Images\bg-signup.jpg" />
     <Content Include="Images\bug-tracker-img.jpg" />
     <Content Include="Images\CC-header.jpg" />
