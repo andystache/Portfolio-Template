@@ -84,6 +84,7 @@
     <Content Include="Images\ipad-replace.jpg" />
     <Content Include="Images\JS-counting.jpg" />
     <Content Include="Images\JS-project-head.jpg" />
+    <Content Include="Images\KelsiFrog.jpg" />
     <Content Include="Images\masthead-test.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -109,6 +110,7 @@
     <Content Include="Content\fa-solid-900.ttf" />
     <Content Include="Content\fa-solid-900.woff" />
     <Content Include="Content\fa-solid-900.woff2" />
+    <None Include="bundleconfig.json" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\RussellPortfolio - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
