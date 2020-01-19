@@ -3,27 +3,27 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="/Images/favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/Images/favicon.ico" />
 
-  <title>ASR Portfolio</title>
+    <title>ASR Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="/Content/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/Content/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="/Content/all.min.css" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="/Content/all.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="/Content/grayscale.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/Content/grayscale.min.css" rel="stylesheet">
 
-  <!-- PrismJS Syntax Highlighter CSS-->
-  <link href="/Content/prism.css" rel="stylesheet" />
+    <!-- PrismJS Syntax Highlighter CSS-->
+    <link href="/Content/prism.css" rel="stylesheet" />
 
 </head>
 
@@ -56,22 +56,29 @@
         </div>
     </nav>
 
+
+
     <!-- Header -->
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase">Portfolio Site</h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">A template with low initial processor load and limited color palette for good display on any monitor, no matter the color space. </h2>
-                <a href="#projects" class="btn btn-primary js-scroll-trigger">Functional</a>
-                <a href="#about" class="btn btn-primary js-scroll-trigger">The Dev</a>
-                <a href="#challenges" class="btn btn-primary js-scroll-trigger">Workshop</a>
-                <!--<a data-toggle="modal" data-target="#JSModal1" class="btn btn-primary js-scroll-trigger">MATH</a>
-                <a data-toggle="modal" data-target="#JSModal2" class="btn btn-primary js-scroll-trigger">FIZZBUZZ</a>
-                <a data-toggle="modal" data-target="#JSModal3" class="btn btn-primary js-scroll-trigger">FACTORIAL</a>
-                <a data-toggle="modal" data-target="#JSModal4" class="btn btn-primary js-scroll-trigger">PALINDROME</a>-->
+                <h1 class="mx-auto my-0 text-uppercase">Andrew's Portfolio Site</h1>
+                <a href="#projects" class="btn btn-primary js-scroll-trigger">Projects</a>
+                <a href="#about" class="btn btn-primary js-scroll-trigger">About The Dev</a>
+                <a href="#challenges" class="btn btn-primary js-scroll-trigger">Challenges</a>
             </div>
         </div>
     </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+        </div>
+    </div>
 
     <!-- About Section -->
     <section id="about" class="about-section text-center">
@@ -80,7 +87,9 @@
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4">About Andrew the Developer</h2>
                     <p class="text-white-50">
-                        This is the about section. The about section is the section in which you talk about the focus of the website, in this case the person creating the site. This about section is about Andrew Russell, currently a student of the Scotty cohort at Coder Foundry. At this point I am using repetitive text instead of lorem ipsum.
+                        Welcome to my portfolio site! Below you will find links to projects I've created (these will open in a new tab) as well as coding challenges presented early in the Coder Foundry course (these will open a modal).<br /><br />
+                        At Coder Foundry we have been taught JS, jQuery, C#, .NET MVC and SQL relational databases. Before a five year foray into restaurant management I was a GAIQ and AdWords certified SEO Specialist for a local template website and online sales provider.
+
                     </p>
                 </div>
             </div>
@@ -100,7 +109,7 @@
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>Projects</h4>
-                        <p class="text-white-50 mb-0">This section displays projects created with JS, jQuery, Razor, and C# (aka MVC 5) during the Coder Foundry course.</p>
+                        <p class="text-white-50 mb-0">This section displays projects created with JS, jQuery, Razor, and C# (MVC 5) during the Coder Foundry course.</p>
                     </div>
                 </div>
             </div>
@@ -117,6 +126,8 @@
                                 <h4 class="text-white">Bug Tracker Project</h4>
                                 <p class="mb-0 text-white-50">Take a look at my 'Shiny Things' bug tracker. This is an MVC application for creating and tracking business issues with four user levels and varying amounts of access and creation rights.</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0">
+                                <br />
+                                <a class="btn btn-primary" href="//shiny-things.azurewebsites.net" target="_blank">Track Bugs</a>
                             </div>
                         </div>
                     </div>
@@ -126,15 +137,18 @@
             <!-- Project Two Row -->
             <div class="row justify-content-center no-gutters">
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="/Images/financial-portal.jpg" alt="">
+                    <a href="//piggybankfinancial.azurewebsites.net" target="_blank"><img class="img-fluid" src="/Images/financial-portal.jpg" alt=""></a>
                 </div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Financial Portal Project</h4>
-                                <p class="mb-0 text-white-50">More place holder text until the project itself is ready to be uploaded to the site</p>
+                                <p class="mb-0 text-white-50">The Financial Portal project is in progress. This project creates and tracks household budgets, visualizes spending data, and warns of low balance or overdraft of accounts.</p>
                                 <hr class="d-none d-lg-block mb-0 mr-0">
+                                <br />
+                                <a class="btn btn-primary" href="//piggybankfinancial.azurewebsites.net" target="_blank">Full Portal</a>
+                                <a class="btn btn-primary" href="//piggybankfinancial-api.azurewebsites.net" target="_blank">Just the API</a>
                             </div>
                         </div>
                     </div>
@@ -152,6 +166,8 @@
                                 <h4 class="text-white">Blog Project</h4>
                                 <p class="mb-0 text-white-50">A blog to track the progression of the CF course, increasing knowledge of OOP, and random thoughts on coding</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0">
+                                <br />
+                                <a class="btn btn-primary" href="//arblogproject.azurewebsites.net" target="_blank">Read Posts</a>
                             </div>
                         </div>
                     </div>
@@ -182,60 +198,6 @@
                                 <button id="animateModal" class="btn-proj btn-primary">Animated</button>
                             </div>
                         </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- Challenge Three Row -->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-6">
-                    <img class="img-fluid img-click" src="/Images/demo-image-02.jpg" alt="" data-toggle="modal" data-target="#JSModal3">
-                </div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Factorial!</h4>
-                                <p class="mb-0 text-white-50">Enter a positive integer (less than 171 - there are limits to the code) and multiply it by every smaller positive integer. Fractional and negative factorials are best left to pure mathematicians!</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Challenge Four Row -->
-            <div class="row justify-content-center no-gutters">
-                <div class="col-lg-6">
-                    <img class="img-fluid img-click" src="/Images/demo-image-02.jpg" alt="" data-toggle="modal" data-target="#JSModal4">
-                </div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Palindromes and Semordnilap</h4>
-                                <p class="mb-0 text-white-50">Palindrome: a word, phrase, or number that is the same forwards and backwards <br /><br />Semordnilap: a word or phrase that form real, but different words forwards and backwards. <br /><br />For example: stressed and desserts</p>
-                                <hr class="d-none d-lg-block mb-0 mr-0">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Challenge One Row -->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-6">
-                    <img class="img-fluid img-click" src="/Images/JS-counting.jpg" alt="" data-toggle="modal" data-target="#JSModal1">
-                </div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Five Numbers</h4>
-                                <p class="mb-0 text-white-50">JavaScript Challenge focused on acquire user inputted data, storing that data as a variable, then performing mathamatical calculations and returning the results.</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0">
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -252,11 +214,74 @@
                                 <h4 class="text-white">FizzBuzz</h4>
                                 <p class="mb-0 text-white-50">An exercise based on calculating multiples and checking their intersection. Each multiple and intersection carry their own display style.</p>
                                 <hr class="d-none d-lg-block mb-0 mr-0">
+                                <br />
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#JSModal2">Try It!</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Challenge Three Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid img-click" src="/Images/demo-image-02.jpg" alt="" data-toggle="modal" data-target="#JSModal3">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Factorial!</h4>
+                                <p class="mb-0 text-white-50">Enter a positive integer (less than 171 - there are limits to the code) and multiply it by every smaller positive integer. Fractional and negative factorials are best left to pure mathematicians!</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                                <br />
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#JSModal3">Try It!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Challenge Four Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid img-click" src="/Images/demo-image-02.jpg" alt="" data-toggle="modal" data-target="#JSModal4">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Palindromes</h4>
+                                <p class="mb-0 text-white-50">Palindrome: a word, phrase, or number that is the same forwards and backwards</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                                <br />
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#JSModal4">Try It!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Challenge One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid img-click" src="/Images/JS-counting.jpg" alt="" data-toggle="modal" data-target="#JSModal1">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Five Numbers</h4>
+                                <p class="mb-0 text-white-50">JavaScript Challenge focused on acquiring user inputted data, then performing mathematical calculations and returning the results.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                                <br />
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#JSModal1">Try It!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
 
 
@@ -270,11 +295,11 @@
 
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                     <h2 class="text-white mb-5">Contact Andrew!</h2>
-
-                    <form class="form-inline d-flex">
+                    <a href="Images/Andrew Russell FINAL Resume.pdf" target="_blank"><h3 style="color:whitesmoke">Download my resume</h3></a>
+                    <!--<form class="form-inline d-flex">
                         <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
                         <button id="btnSend" onclick="SendEmail()" class="btn btn-primary mx-auto">Submit</button>
-                    </form>
+                    </form>-->
 
                 </div>
             </div>
@@ -291,7 +316,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4">
-                            <div class="small text-black-50">705 S Holden Rd Greensboro, NC</div>
+                            <div class="text-black-50">705 S Holden Rd Greensboro, NC</div>
                         </div>
                     </div>
                 </div>
@@ -301,9 +326,7 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4">
-                            <div class="small text-black-50">
-                                <div class="small text-black-50">andystache@gmail.com</div>
-                            </div>
+                            <div class="text-black-50">andystache@gmail.com</div>
                         </div>
                     </div>
                 </div>
@@ -313,7 +336,7 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4">
-                            <div class="small text-black-50">+1 (336) 698-6700</div>
+                            <div class="text-black-50">+1 (336) 698-6700</div>
                         </div>
                     </div>
                 </div>
@@ -399,9 +422,9 @@
                             </div>
                             <div class="col">
                                 <div class="row">
-                                    <button id="mathBtn" class="btn-proj btn-primary">Calculate</button>
-                                    <button id="clearBtn" class="btn-proj btn-secondary">Clear</button>
-                                    <button id="toggleBtn" class="btn-proj btn-dark">Show Code</button>
+                                    <button id="mathBtn" class="btn-sm btn-primary">Calculate</button>
+                                    <button id="clearBtn" class="btn-sm btn-secondary">Clear</button>
+                                    <button id="toggleBtn" class="btn-sm btn-dark">Show Code</button>
                                 </div>
                                 <div class="row">
                                     <div class="col">
@@ -439,54 +462,53 @@
                         </div>
                         <div class="row" id="mathCode">
                             <pre><code class="language-js">
-                                
-$("#mathCode").hide();
-$("#toggleBtn").click(function () {
-$("#mathCode").toggle();
-if ($(this).text() == "Show Code") {
-$(this).text("Hide Code");
-}
-else {
-$(this).text("Show Code")
-};
-});
-$("#mathBtn").click(function () {
-//Step 1: Get the user data
-var num1 = Number($("#input1").val());
-var num2 = Number($("#input2").val());
-var num3 = Number($("#input3").val());
-var num4 = Number($("#input4").val());
-var num5 = Number($("#input5").val());
+
+    $("#mathCode").hide();
+    $("#toggleBtn").click(function () {
+    $("#mathCode").toggle();
+    if ($(this).text() == "Show Code") {
+    $(this).text("Hide Code");
+    } else {
+    $(this).text("Show Code")
+    };
+    });
+    $("#mathBtn").click(function () {
+    //Step 1: Get the user data
+    var num1 = Number($("#input1").val());
+    var num2 = Number($("#input2").val());
+    var num3 = Number($("#input3").val());
+    var num4 = Number($("#input4").val());
+    var num5 = Number($("#input5").val());
 
 
-//Step 2: Make the calculations with the given data
-var smallest = Math.min(num1, num2, num3, num4, num5);
-var largest = Math.max(num1, num2, num3, num4, num5);
-var sum = num1 + num2 + num3 + num4 + num5;
-var product = num1 * num2 * num3 * num4 * num5;
-var average = sum / 5;
+    //Step 2: Make the calculations with the given data
+    var smallest = Math.min(num1, num2, num3, num4, num5);
+    var largest = Math.max(num1, num2, num3, num4, num5);
+    var sum = num1 + num2 + num3 + num4 + num5;
+    var product = num1 * num2 * num3 * num4 * num5;
+    var average = sum / 5;
 
-//Step 3: Display the results to the user
-$("#smallest").text("The smallest number is " + smallest);
-$("#largest").text("The largest number is " + largest);
-$("#sum").text("The sum is " + sum);
-$("#product").text("The product is " + product);
-$("#average").text("The average is " + average);
+    //Step 3: Display the results to the user
+    $("#smallest").text("The smallest number is " + smallest);
+    $("#largest").text("The largest number is " + largest);
+    $("#sum").text("The sum is " + sum);
+    $("#product").text("The product is " + product);
+    $("#average").text("The average is " + average);
 
-});
-$("#clearBtn").click(function () {
+    });
+    $("#clearBtn").click(function () {
 
-$("#input1,#input2,#input3,#input4,#input5").val("");
+    $("#input1,#input2,#input3,#input4,#input5").val("");
 
-$("#smallest").text("");
-$("#largest").text("");
-$("#sum").text("");
-$("#product").text("");
-$("#average").text("");
+    $("#smallest").text("");
+    $("#largest").text("");
+    $("#sum").text("");
+    $("#product").text("");
+    $("#average").text("");
 
-});
-                                    
-                            </code></pre>
+    });
+
+</code></pre>
 
 
                         </div>
@@ -531,9 +553,9 @@ $("#average").text("");
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <button id="btnFB" class="btn-proj btn-primary">Go</button>
-                                        <button id="FBbtnClear" class="btn-proj btn-secondary">Clear</button>
-                                        <button id="FBbtnToggleCode" class="btn-proj btn-dark">Show Code</button>
+                                        <button id="btnFB" class="btn-sm btn-primary">Go</button>
+                                        <button id="FBbtnClear" class="btn-sm btn-secondary">Clear</button>
+                                        <button id="FBbtnToggleCode" class="btn-sm btn-dark">Show Code</button>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -553,66 +575,47 @@ $("#average").text("");
                                     <div class="col">
                                         <div id="FBcode">
                                             <pre><code class="language-js">
-
-$("#FBcode").hide();
+    $("#FBcode").hide();
     $("#FBbtnToggleCode").click(function () {
     $("#FBcode").toggle();
 
-        if ($(this).text() == "Show Code") {
-            $(this).text("Hide Code");
+    if ($(this).text() == "Show Code") {
+    $(this).text("Hide Code");
 
-        }
-        else {
-            $(this).text("Show Code")
-        };
+    }
+    else {
+    $(this).text("Show Code")
+    };
     });
-
     $("#btnFB").click(function () {
-        //1. Get user data
-        var Input1 = Number($("#fbIn1").val());
-        var Input2 = Number($("#fbIn2").val());
-        var Answer = "";
-
-
-        //2. Do something with the input
-
-        for (var i = 1; i <= 100; i++) {
-            var comma = ", ";
-            if (i == 100) {
-                comma = "";
-            }
-            if (i % Input1 == 0 && i % Input2 == 0) {
-                Answer += "<span class='fizzbuzz'>fizzbuzz" + comma + "</span>";
-            }
-
-            else if (i % Input1 == 0) {
-                Answer += "<span class='fizz'>fizz" + comma + "</span>";
-
-            }
-            else if (i % Input2 == 0) {
-                Answer += "<span class='buzz'>buzz" + comma + "</span>";
-                    
-            }
-
-            else {
-                Answer += i + comma;
-            }
-        }
-     //3. Show the answer.
-    $("#Answer").html(Answer);   
-        
-
+    let Input1 = Number($("#fbIn1").val());
+    let Input2 = Number($("#fbIn2").val());
+    let Answer = [];
+    for (var i = 1; i <= 100; i++) {
+    var int1 = i % Input1;
+    var int2 = i % Input2;
+    if (int1 == 0 && int2 == 0) {
+    Answer.push('<span class="fizzBuzz">FizzBuzz</span>');
+    }
+    else if (int1 == 0) {
+    Answer.push('<span class="fizz">Fizz</span>');
+    }
+    else if (int2 == 0) {
+    Answer.push('<span class="buzz">Buzz</span>');
+    }
+    else {
+    Answer.push(`<span class="miss">${i}</span>`);
+    };
+    };
+    $("#Answer").html(Answer.join(', '));
     });
-
-    //Clear out the answers to start over
     $("#FBbtnClear").click(function () {
-        $("#fbIn1").val("");
-        $("#fbIn2").val("");
-        $("#Answer").text("");
+    $("#fbIn1").val("");
+    $("#fbIn2").val("");
+    $("#Answer").text("");
     });
-    //Fizz Buzz ends
 
-                                </code></pre>
+</code></pre>
 
 
 
@@ -653,13 +656,13 @@ $("#FBcode").hide();
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <button id="btnFact" class="btn-proj btn-primary">Calculate</button>
+                                    <button id="btnFact" class="btn-sm btn-primary">Calculate</button>
                                 </div>
                                 <div class="col">
-                                    <button id="factbtnClear" class="btn-proj btn-secondary">Clear</button>
+                                    <button id="factbtnClear" class="btn-sm btn-secondary">Clear</button>
                                 </div>
                                 <div class="col">
-                                    <button id="facttoggleBtn" class="btn-proj btn-dark">Show Code</button>
+                                    <button id="facttoggleBtn" class="btn-sm btn-dark">Show Code</button>
                                 </div>
                             </div>
                         </div>
@@ -734,7 +737,7 @@ $("#FBcode").hide();
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Palidromes semordnilaP</h4>
+                    <h4 class="modal-title">Palindromes</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <!-- Modal body -->
@@ -744,7 +747,7 @@ $("#FBcode").hide();
                         <div>
                             <div class="row">
                                 <div class="col">
-                                    <p>Please enter a word to determine if it is a Palindrome or a Semordnilap.</p>
+                                    <p>Please enter a word to determine if it is a palindrome.</p>
                                 </div>
                             </div>
 
@@ -758,13 +761,13 @@ $("#FBcode").hide();
                                     <!--Buttons-->
                                     <div class="row">
                                         <div class="col">
-                                            <button id="palIn" class="btn-proj btn-primary">Test It!</button>
+                                            <button id="palIn" class="btn-sm btn-primary">Test It!</button>
                                         </div>
                                         <div class="col">
-                                            <button id="palbtnClear" class="btn-proj btn-secondary">Clear</button>
+                                            <button id="palbtnClear" class="btn-sm btn-secondary">Clear</button>
                                         </div>
                                         <div class="col">
-                                            <button id="paltoggleBtn" class="btn-proj btn-dark">Show Code</button>
+                                            <button id="paltoggleBtn" class="btn-sm btn-dark">Show Code</button>
                                         </div>
                                     </div>
                                 </div>
@@ -784,39 +787,38 @@ $("#FBcode").hide();
                                 <div class="col">
                                     <div id="palcode">
                                         <pre><code class="language-js">
-//Palindrome
-$("#palcode").hide();
-$("#paltoggleBtn").click(function () {
+    //Palindrome
+    $("#palcode").hide();
+    $("#paltoggleBtn").click(function () {
     $("#palcode").toggle();
     if ($(this).text() == "Show Code") {
-        $(this).text("Hide Code");
+    $(this).text("Hide Code");
     }
     else {
-        $(this).text("Show Code")
-        };
+    $(this).text("Show Code")
+    };
     });
-$("#palIn").click(function () {
+    $("#palIn").click(function () {
     let inputWord = $("#pal").val()
-        if (inputWord.length < 2) { 
-            alert("Please use two or more characters") } 
-        else {
-            let reversedInput = inputWord.split('').reverse().join('');
-            let word = inputWord.toLowerCase().replace(/\s/g, '');
-            let revword = reversedInput.toLowerCase().replace(/\s/g, '');
-            let message = `Your input was: ${inputWord}. Reversed is ${reversedInput}.`;
-            let result = ""
-            if (word == revword) {
-                result = `... ${inputWord} is a palindrome!`;
-            } else {
-                result = `... ${inputWord} is not a plaindrome!`;
-            };
-        $("#palOut").text(message + " " + result)
-        }
-});
-$("#palbtnClear").click(function () {
+    if (inputWord.length < 2) { alert("Please use two or more characters") } else {
+    let reversedInput = inputWord.split('').reverse().join('');
+    let word = inputWord.toLowerCase().replace(/\s|\'|\"/g, '');
+    let revword = reversedInput.toLowerCase().replace(/\s|\'|\"/g, '');
+    let message = `Your input was: ${inputWord}. Reversed is ${reversedInput}.`;
+    let result = ""
+    if (word == revword) {
+    result = `That means ${inputWord} is a palindrome!`;
+    } else {
+    result = `That means ${inputWord} is not a plaindrome!`;
+    };
+    $("#palOut").text(message + " " + result)
+    }
+    });
+    $("#palbtnClear").click(function () {
     $("#pal").val("");
     $("#palOut").text("");
-});
+    });
+
 </code></pre>
                                     </div>
                                 </div>
@@ -912,13 +914,13 @@ $("#palbtnClear").click(function () {
                 var int1 = i % Input1;
                 var int2 = i % Input2;
                 if (int1 == 0 && int2 == 0) {
-                    Answer.push('<span class ="fizzBuzz">FizzBuzz</span>');
+                    Answer.push(`<span class ="fizzBuzz">FizzBuzz</span>`);
                 }
                 else if (int1 == 0) {
-                    Answer.push('<span class="fizz">Fizz</span>');
+                    Answer.push(`<span class="fizz">Fizz</span>`);
                 }
                 else if (int2 == 0) {
-                    Answer.push('<span class="buzz">Buzz</span>');
+                    Answer.push(`<span class="buzz">Buzz</span>`);
                 }
                 else {
                     Answer.push(`<span class="miss">${i}</span>`);
@@ -1015,20 +1017,6 @@ $("#palbtnClear").click(function () {
 
     </script>
 
-    <script src="Scripts/smtp.js"></script>
-    <script>
-        function SendEmail() {
-            Email.send({
-                SecureToken: "727835a3-a0e3-47ae-b122-551bbf1a63f5",
-                To: "andystache@gmail.com",
-                From: $("#inputEmail").val(),
-                Subject: "This is the subject",
-                Body: "And this is the body"
-            }).then(
-                message => alert("Email sent!")
-            );
-        };
-    </script>
 </body>
 
 </html>
